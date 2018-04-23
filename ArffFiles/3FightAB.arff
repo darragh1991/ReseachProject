@@ -1,0 +1,115 @@
+@relation 3FightAB
+
+@attribute ﻿FightID numeric
+@attribute FighterA {FighterA}
+@attribute 'SS A Rd1' numeric
+@attribute 'SS A Rd2' numeric
+@attribute 'SS A Rd3' numeric
+@attribute FighterB {FighterB}
+@attribute 'SS B Rd1' numeric
+@attribute 'SS B Rd2' numeric
+@attribute 'SS B Rd3' numeric
+@attribute 'Decision ' {KO,Scorecard,Submission}
+@attribute Winner {FighterA,FighterB}
+
+@data
+32,FighterA,25,41,108,FighterB,18,31,38,KO,FighterA
+33,FighterA,27,15,11,FighterB,14,7,2,Scorecard,FighterA
+34,FighterA,23,26,45,FighterB,19,15,19,KO,FighterA
+35,FighterA,33,19,1,FighterB,18,15,1,KO,FighterA
+38,FighterA,42,73,40,FighterB,39,51,32,KO,FighterA
+39,FighterA,11,25,20,FighterB,4,16,22,Scorecard,FighterB
+40,FighterA,13,18,39,FighterB,12,14,16,Scorecard,FighterA
+41,FighterA,19,11,9,FighterB,6,9,8,Scorecard,FighterB
+42,FighterA,11,28,10,FighterB,10,11,5,Scorecard,FighterA
+43,FighterA,25,30,22,FighterB,9,4,0,Scorecard,FighterA
+44,FighterA,21,69,63,FighterB,30,37,63,Scorecard,FighterA
+45,FighterA,15,17,10,FighterB,12,16,3,KO,FighterA
+46,FighterA,22,38,21,FighterB,4,7,6,Scorecard,FighterA
+47,FighterA,25,45,38,FighterB,4,6,6,Submission,FighterA
+48,FighterA,25,13,19,FighterB,8,19,14,Scorecard,FighterA
+49,FighterA,21,21,26,FighterB,22,22,21,Scorecard,FighterB
+50,FighterA,28,23,12,FighterB,4,5,16,Scorecard,FighterA
+51,FighterA,14,8,24,FighterB,14,7,13,Scorecard,FighterA
+52,FighterA,22,9,28,FighterB,17,15,9,Scorecard,FighterB
+53,FighterA,25,21,24,FighterB,21,21,10,Scorecard,FighterA
+54,FighterA,22,33,21,FighterB,13,34,22,Scorecard,FighterA
+55,FighterA,13,26,13,FighterB,9,20,14,Scorecard,FighterA
+56,FighterA,17,21,19,FighterB,10,10,14,Scorecard,FighterA
+57,FighterA,26,7,20,FighterB,14,8,26,Scorecard,FighterA
+58,FighterA,11,19,21,FighterB,6,17,14,Scorecard,FighterA
+59,FighterA,15,3,13,FighterB,20,14,10,Scorecard,FighterA
+60,FighterA,27,28,42,FighterB,8,16,13,KO,FighterA
+61,FighterA,8,4,30,FighterB,6,4,6,Submission,FighterA
+62,FighterA,18,15,26,FighterB,8,9,1,Scorecard,FighterB
+63,FighterA,21,15,33,FighterB,27,11,25,KO,FighterA
+64,FighterA,3,20,17,FighterB,21,1,0,Scorecard,FighterB
+65,FighterA,24,22,25,FighterB,35,15,18,KO,FighterA
+66,FighterA,16,29,28,FighterB,11,9,3,Scorecard,FighterA
+67,FighterA,20,21,19,FighterB,19,16,20,KO,FighterA
+69,FighterA,10,24,11,FighterB,18,17,10,Submission,FighterA
+70,FighterA,15,17,27,FighterB,7,12,8,Scorecard,FighterA
+71,FighterA,24,26,25,FighterB,17,20,12,Scorecard,FighterA
+72,FighterA,30,24,62,FighterB,17,16,61,KO,FighterB
+73,FighterA,19,25,35,FighterB,14,14,15,Submission,FighterA
+74,FighterA,7,26,3,FighterB,3,5,2,Scorecard,FighterA
+75,FighterA,22,32,18,FighterB,6,9,8,KO,FighterB
+76,FighterA,17,17,12,FighterB,14,12,16,Scorecard,FighterB
+78,FighterA,22,17,19,FighterB,18,23,17,Scorecard,FighterA
+79,FighterA,7,17,25,FighterB,25,6,3,Scorecard,FighterA
+80,FighterA,9,19,14,FighterB,15,5,21,Scorecard,FighterA
+81,FighterA,7,16,10,FighterB,14,12,9,Scorecard,FighterA
+82,FighterA,5,6,9,FighterB,2,1,1,KO,FighterA
+84,FighterA,27,30,17,FighterB,16,14,2,KO,FighterA
+85,FighterA,23,11,18,FighterB,11,5,3,KO,FighterA
+87,FighterA,7,12,6,FighterB,5,8,2,Submission,FighterA
+88,FighterA,20,16,4,FighterB,12,12,0,Scorecard,FighterA
+89,FighterA,8,24,11,FighterB,7,13,1,Scorecard,FighterB
+90,FighterA,31,13,11,FighterB,10,2,4,Scorecard,FighterA
+91,FighterA,7,10,10,FighterB,8,4,6,Scorecard,FighterA
+92,FighterA,14,19,1,FighterB,5,13,5,Scorecard,FighterB
+93,FighterA,19,11,26,FighterB,23,20,15,Scorecard,FighterB
+94,FighterA,17,4,17,FighterB,7,5,13,Scorecard,FighterA
+95,FighterA,14,20,18,FighterB,15,18,16,Scorecard,FighterB
+96,FighterA,10,7,5,FighterB,4,2,4,Scorecard,FighterA
+97,FighterA,20,6,8,FighterB,15,11,4,Submission,FighterB
+98,FighterA,21,63,12,FighterB,35,43,10,KO,FighterA
+100,FighterA,24,22,9,FighterB,9,10,2,Scorecard,FighterA
+101,FighterA,27,41,2,FighterB,34,25,4,KO,FighterB
+102,FighterA,10,21,5,FighterB,11,7,5,Scorecard,FighterA
+103,FighterA,17,20,29,FighterB,18,17,12,Scorecard,FighterA
+104,FighterA,25,19,47,FighterB,23,21,30,Scorecard,FighterB
+105,FighterA,19,25,21,FighterB,17,17,2,Scorecard,FighterB
+106,FighterA,11,32,19,FighterB,12,23,12,Submission,FighterB
+107,FighterA,34,13,14,FighterB,17,11,10,Scorecard,FighterB
+108,FighterA,32,26,19,FighterB,10,22,19,Scorecard,FighterB
+109,FighterA,10,15,10,FighterB,14,8,3,Scorecard,FighterB
+110,FighterA,20,20,17,FighterB,9,12,9,Scorecard,FighterA
+111,FighterA,10,12,11,FighterB,18,12,1,Scorecard,FighterA
+112,FighterA,12,14,11,FighterB,12,6,12,Scorecard,FighterB
+113,FighterA,13,23,6,FighterB,10,6,24,Scorecard,FighterA
+114,FighterA,12,25,22,FighterB,15,18,24,Scorecard,FighterA
+115,FighterA,41,5,9,FighterB,5,22,16,Scorecard,FighterB
+116,FighterA,11,12,2,FighterB,11,10,2,Scorecard,FighterB
+117,FighterA,27,22,6,FighterB,13,27,14,Scorecard,FighterB
+118,FighterA,25,15,27,FighterB,11,17,17,Scorecard,FighterA
+119,FighterA,7,15,10,FighterB,24,4,2,Scorecard,FighterA
+120,FighterA,11,14,7,FighterB,6,6,11,Scorecard,FighterB
+121,FighterA,2,4,21,FighterB,12,3,6,Scorecard,FighterB
+122,FighterA,17,3,40,FighterB,11,4,29,Scorecard,FighterA
+123,FighterA,20,16,8,FighterB,25,8,6,Scorecard,FighterB
+124,FighterA,12,5,11,FighterB,8,4,10,Scorecard,FighterB
+125,FighterA,14,17,14,FighterB,14,16,11,Scorecard,FighterA
+126,FighterA,26,40,36,FighterB,19,27,30,Scorecard,FighterB
+127,FighterA,18,22,28,FighterB,21,24,18,Scorecard,FighterA
+128,FighterA,37,25,10,FighterB,25,2,10,Scorecard,FighterA
+129,FighterA,24,16,14,FighterB,17,17,16,Scorecard,FighterA
+130,FighterA,17,12,4,FighterB,18,10,4,Scorecard,FighterB
+131,FighterA,19,18,8,FighterB,15,2,19,Scorecard,FighterB
+132,FighterA,15,6,22,FighterB,11,13,14,Scorecard,FighterB
+133,FighterA,22,13,17,FighterB,13,12,5,Scorecard,FighterB
+134,FighterA,6,21,27,FighterB,12,14,18,Scorecard,FighterB
+135,FighterA,12,40,29,FighterB,23,20,24,Scorecard,FighterA
+136,FighterA,21,33,14,FighterB,13,20,10,Scorecard,FighterA
+137,FighterA,6,16,20,FighterB,0,17,39,Scorecard,FighterB
+138,FighterA,11,10,4,FighterB,6,14,2,Scorecard,FighterB

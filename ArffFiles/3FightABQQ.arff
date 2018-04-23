@@ -1,0 +1,115 @@
+@relation 3FightABQQ
+
+@attribute ﻿FightID numeric
+@attribute FighterA {FighterA}
+@attribute 'SS A Rd1' numeric
+@attribute 'SS A Rd2' numeric
+@attribute 'SS A Rd3' numeric
+@attribute FighterB {FighterB}
+@attribute 'SS B Rd1' numeric
+@attribute 'SS B Rd2' numeric
+@attribute 'SS B Rd3' numeric
+@attribute 'Decision ' {KO,Scorecard,Submission}
+@attribute Winner {FighterA,FighterB}
+
+@data
+32,FighterA,25,?,?,FighterB,18,?,?,KO,FighterA
+33,FighterA,27,?,?,FighterB,14,?,?,Scorecard,FighterA
+34,FighterA,23,?,?,FighterB,19,?,?,KO,FighterA
+35,FighterA,33,?,?,FighterB,18,?,?,KO,FighterA
+38,FighterA,42,?,?,FighterB,39,?,?,KO,FighterA
+39,FighterA,11,?,?,FighterB,4,?,?,Scorecard,FighterB
+40,FighterA,13,?,?,FighterB,12,?,?,Scorecard,FighterA
+41,FighterA,19,?,?,FighterB,6,?,?,Scorecard,FighterB
+42,FighterA,11,?,?,FighterB,10,?,?,Scorecard,FighterA
+43,FighterA,25,?,?,FighterB,9,?,?,Scorecard,FighterA
+44,FighterA,21,?,?,FighterB,30,?,?,Scorecard,FighterA
+45,FighterA,15,?,?,FighterB,12,?,?,KO,FighterA
+46,FighterA,22,?,?,FighterB,4,?,?,Scorecard,FighterA
+47,FighterA,25,?,?,FighterB,4,?,?,Submission,FighterA
+48,FighterA,25,?,?,FighterB,8,?,?,Scorecard,FighterA
+49,FighterA,21,?,?,FighterB,22,?,?,Scorecard,FighterB
+50,FighterA,28,?,?,FighterB,4,?,?,Scorecard,FighterA
+51,FighterA,14,?,?,FighterB,14,?,?,Scorecard,FighterA
+52,FighterA,22,?,?,FighterB,17,?,?,Scorecard,FighterB
+53,FighterA,25,?,?,FighterB,21,?,?,Scorecard,FighterA
+54,FighterA,22,?,?,FighterB,13,?,?,Scorecard,FighterA
+55,FighterA,13,?,?,FighterB,9,?,?,Scorecard,FighterA
+56,FighterA,17,?,?,FighterB,10,?,?,Scorecard,FighterA
+57,FighterA,26,?,?,FighterB,14,?,?,Scorecard,FighterA
+58,FighterA,11,?,?,FighterB,6,?,?,Scorecard,FighterA
+59,FighterA,15,?,?,FighterB,20,?,?,Scorecard,FighterA
+60,FighterA,27,?,?,FighterB,8,?,?,KO,FighterA
+61,FighterA,8,?,?,FighterB,6,?,?,Submission,FighterA
+62,FighterA,18,?,?,FighterB,8,?,?,Scorecard,FighterB
+63,FighterA,21,?,?,FighterB,27,?,?,KO,FighterA
+64,FighterA,3,?,?,FighterB,21,?,?,Scorecard,FighterB
+65,FighterA,24,?,?,FighterB,35,?,?,KO,FighterA
+66,FighterA,16,?,?,FighterB,11,?,?,Scorecard,FighterA
+67,FighterA,20,?,?,FighterB,19,?,?,KO,FighterA
+69,FighterA,10,?,?,FighterB,18,?,?,Submission,FighterA
+70,FighterA,15,?,?,FighterB,7,?,?,Scorecard,FighterA
+71,FighterA,24,?,?,FighterB,17,?,?,Scorecard,FighterA
+72,FighterA,30,?,?,FighterB,17,?,?,KO,FighterB
+73,FighterA,19,?,?,FighterB,14,?,?,Submission,FighterA
+74,FighterA,7,?,?,FighterB,3,?,?,Scorecard,FighterA
+75,FighterA,22,?,?,FighterB,6,?,?,KO,FighterB
+76,FighterA,17,?,?,FighterB,14,?,?,Scorecard,FighterB
+78,FighterA,22,?,?,FighterB,18,?,?,Scorecard,FighterA
+79,FighterA,7,?,?,FighterB,25,?,?,Scorecard,FighterA
+80,FighterA,9,?,?,FighterB,15,?,?,Scorecard,FighterA
+81,FighterA,7,?,?,FighterB,14,?,?,Scorecard,FighterA
+82,FighterA,5,?,?,FighterB,2,?,?,KO,FighterA
+84,FighterA,27,?,?,FighterB,16,?,?,KO,FighterA
+85,FighterA,23,?,?,FighterB,11,?,?,KO,FighterA
+87,FighterA,7,?,?,FighterB,5,?,?,Submission,FighterA
+88,FighterA,20,?,?,FighterB,12,?,?,Scorecard,FighterA
+89,FighterA,8,?,?,FighterB,7,?,?,Scorecard,FighterB
+90,FighterA,31,?,?,FighterB,10,?,?,Scorecard,FighterA
+91,FighterA,7,?,?,FighterB,8,?,?,Scorecard,FighterA
+92,FighterA,14,?,?,FighterB,5,?,?,Scorecard,FighterB
+93,FighterA,19,?,?,FighterB,23,?,?,Scorecard,FighterB
+94,FighterA,17,?,?,FighterB,7,?,?,Scorecard,FighterA
+95,FighterA,14,?,?,FighterB,15,?,?,Scorecard,FighterB
+96,FighterA,10,?,?,FighterB,4,?,?,Scorecard,FighterA
+97,FighterA,20,?,?,FighterB,15,?,?,Submission,FighterB
+98,FighterA,21,?,?,FighterB,35,?,?,KO,FighterA
+100,FighterA,24,?,?,FighterB,9,?,?,Scorecard,FighterA
+101,FighterA,27,?,?,FighterB,34,?,?,KO,FighterB
+102,FighterA,10,?,?,FighterB,11,?,?,Scorecard,FighterA
+103,FighterA,17,?,?,FighterB,18,?,?,Scorecard,FighterA
+104,FighterA,25,?,?,FighterB,23,?,?,Scorecard,FighterB
+105,FighterA,19,?,?,FighterB,17,?,?,Scorecard,FighterB
+106,FighterA,11,?,?,FighterB,12,?,?,Submission,FighterB
+107,FighterA,34,?,?,FighterB,17,?,?,Scorecard,FighterB
+108,FighterA,32,?,?,FighterB,10,?,?,Scorecard,FighterB
+109,FighterA,10,?,?,FighterB,14,?,?,Scorecard,FighterB
+110,FighterA,20,?,?,FighterB,9,?,?,Scorecard,FighterA
+111,FighterA,10,?,?,FighterB,18,?,?,Scorecard,FighterA
+112,FighterA,12,?,?,FighterB,12,?,?,Scorecard,FighterB
+113,FighterA,13,?,?,FighterB,10,?,?,Scorecard,FighterA
+114,FighterA,12,?,?,FighterB,15,?,?,Scorecard,FighterA
+115,FighterA,41,?,?,FighterB,5,?,?,Scorecard,FighterB
+116,FighterA,11,?,?,FighterB,11,?,?,Scorecard,FighterB
+117,FighterA,27,?,?,FighterB,13,?,?,Scorecard,FighterB
+118,FighterA,25,?,?,FighterB,11,?,?,Scorecard,FighterA
+119,FighterA,7,?,?,FighterB,24,?,?,Scorecard,FighterA
+120,FighterA,11,?,?,FighterB,6,?,?,Scorecard,FighterB
+121,FighterA,2,?,?,FighterB,12,?,?,Scorecard,FighterB
+122,FighterA,17,?,?,FighterB,11,?,?,Scorecard,FighterA
+123,FighterA,20,?,?,FighterB,25,?,?,Scorecard,FighterB
+124,FighterA,12,?,?,FighterB,8,?,?,Scorecard,FighterB
+125,FighterA,14,?,?,FighterB,14,?,?,Scorecard,FighterA
+126,FighterA,26,?,?,FighterB,19,?,?,Scorecard,FighterB
+127,FighterA,18,?,?,FighterB,21,?,?,Scorecard,FighterA
+128,FighterA,37,?,?,FighterB,25,?,?,Scorecard,FighterA
+129,FighterA,24,?,?,FighterB,17,?,?,Scorecard,FighterA
+130,FighterA,17,?,?,FighterB,18,?,?,Scorecard,FighterB
+131,FighterA,19,?,?,FighterB,15,?,?,Scorecard,FighterB
+132,FighterA,15,?,?,FighterB,11,?,?,Scorecard,FighterB
+133,FighterA,22,?,?,FighterB,13,?,?,Scorecard,FighterB
+134,FighterA,6,?,?,FighterB,12,?,?,Scorecard,FighterB
+135,FighterA,12,?,?,FighterB,23,?,?,Scorecard,FighterA
+136,FighterA,21,?,?,FighterB,13,?,?,Scorecard,FighterA
+137,FighterA,6,?,?,FighterB,0,?,?,Scorecard,FighterB
+138,FighterA,11,?,?,FighterB,6,?,?,Scorecard,FighterB
